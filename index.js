@@ -1,9 +1,9 @@
 const { fetchISSFlyOverTimes } = require('./iss');
 
-const exampleCoords = { latitude: '49.27670', longitude: '-123.13000' };
+const exampleCoords = { latitude: '43.8770', longitude: '-79.2262' };
 
 fetchISSFlyOverTimes(exampleCoords, (error, passTimes) => {
-  
+
   if (error) {
     console.log("It didn't work!" , error);
     return;
